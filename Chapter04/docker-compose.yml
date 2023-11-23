@@ -3,7 +3,7 @@ version: '2.1'
 services:
   product:
     build: microservices/product-service
-    mem_limit: 350m
+    mem_limit: 350m   # 메모리 350MB 제한 ...
     environment:
       - SPRING_PROFILES_ACTIVE=docker
 
